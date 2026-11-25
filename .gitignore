@@ -1,0 +1,11 @@
+# secrets / local
+*.env
+.env
+secrets*
+*.key
+*.pem
+local.settings.json
+# python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

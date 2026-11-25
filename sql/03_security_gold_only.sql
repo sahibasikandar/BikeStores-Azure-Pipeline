@@ -1,0 +1,5 @@
+-- Analysts can read the serving DB (Gold views) only.
+-- Storage RBAC: give analysts "Storage Blob Data Reader" on the gold/ path (ACLs), NOT on bronze/.
+-- CREATE LOGIN analyst_group FROM EXTERNAL PROVIDER;   -- master DB
+-- CREATE USER  analyst_group FROM EXTERNAL PROVIDER;   -- bikestores_gold DB
+-- GRANT SELECT ON SCHEMA::dbo TO analyst_group;
