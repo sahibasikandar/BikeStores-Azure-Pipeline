@@ -1,1 +1,0 @@
-# BikeStores-Azure-Pipeline
